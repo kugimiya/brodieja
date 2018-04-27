@@ -1,0 +1,188 @@
+  @import url(https://fonts.googleapis.com/css?family=Play);
+  @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+  
+  html, body {
+    font-family: 'Play', sans-serif;
+    font-size: 14px;
+    background: #000000;
+    color: #ffffff;
+  }
+
+  * {
+    font-family: "Play", sans-serif;
+    font-size: 14px;
+  }
+
+  input, textarea {
+    background-color: #606060;
+    border: 1px solid #ffffff;
+  }
+  
+  input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+  }
+  
+  textarea:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+  }
+
+  ul{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+  }
+
+
+  a {
+    font-family: "Play", sans-serif;
+    text-shadow: 0 0 2px #FFD399;
+    color: #FFD399;
+  }
+
+  a:visited {
+    text-shadow: 0 0 2px #F4A460;
+    color:#F4A460;
+  }
+
+  a:hover {
+    text-shadow: 0 0 6px #FFD399;
+    color:#FFD399;
+  }
+
+  a.quotelink {
+    background:inherit;
+    color:#DD0000;
+  }
+
+  /* this is first post in thread */
+  .oppostblock {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+   /* width: -moz-max-content;
+    width: -webkit-max-content;
+   */ max-width: 85%;
+
+  }
+
+  /* this is other post in thread */
+  .cirnopostblock {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 10px;
+    background: #3f3f3f;
+    border: 0px solid #3f3f3f;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    clear: both;
+   /* width: -moz-max-content;
+    width: -webkit-max-content;
+   */ max-width: 85%;
+    min-height: -webkit-max-content;
+    float : left;
+
+  }
+
+  /* this is block where post-text */
+  .OPblock {
+
+    background: inherit;
+    padding: 2px;
+    margin-left: 20px;
+    /*clear: both;*/
+    /*max-width: 85%;*/
+
+  }
+
+  /* this is block where post-pic */
+  .picture {
+    padding: 1px;
+    margin: 1px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    height: -webkit-max-content;
+    float: left;
+  }
+  
+  .picture a img {
+    border-radius: 10px;
+  }
+
+  /* this is div with info about file */
+  .OPtitle {
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  /* this is div with info about post */
+  .infos {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  /* this is post owner OP or Cirno */
+  .postername {
+    background:inherit;
+    font-size:11pt;
+    color:#77DD77;
+    font-weight: bold;
+  }
+
+  /* this is post theme */
+  .filetitle {
+    color:#7FC7FF;
+    font-size: 14px;
+  }
+
+  .titled {
+    font-size: 14px;
+    color:#FFFFFF;
+    font-weight:800;
+  }
+
+  /* this is post time and date */
+  .smallgray {
+    background:inherit;
+    color: #D5D5D5;
+    font-size: 14px;
+  }
+
+  /* this is reply */
+  .reply {
+    background:inherit;
+    color:#7FFFD4;
+    font-weight: normal;
+  }
+
+  /* this is post id */
+  .redbig {
+    background:inherit;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .redverybig {
+    background:inherit;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .redsmall {
+    font-size: 14px;
+    color: red;
+  }

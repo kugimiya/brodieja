@@ -1,0 +1,176 @@
+body { font-size:14pt; background:#000000; color:#999;}
+html { background: #444;}
+#picture { opacity: 0.3;}
+#picture:hover { opacity: 1;}
+
+* {
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10pt;
+}
+
+input, textarea {
+  background-color: #333;
+  color: aliceblue;
+  border: 1px solid #444;
+}
+
+a {
+  background:inherit;
+  color:#99aa66;
+}
+
+a:visited {
+  background:inherit;
+  color:#aaa;
+}
+
+a:hover {
+  color:#DD0000;
+  background:inherit;
+}
+
+a.quotelink {
+  background:inherit;
+  color:#DD0000;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+}
+
+/* this is first post in thread */
+.oppostblock {
+
+  background: inherit;
+  border: 0px solid #EDDAD2;
+  padding: 0px;
+  margin: 0px;
+  clear: both;
+ /* width: -moz-max-content;
+  width: -webkit-max-content;
+ */ max-width: 85%;
+
+}
+
+/* this is other post in thread */
+.cirnopostblock {
+
+  background: #222;
+  border: 1px dotted #444;
+  padding: 4px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 5px;
+  float : left;
+  vertical-align:top;
+}
+
+/* this is block where post-text */
+.OPblock {
+
+  background: inherit;
+  border: 0px solid #EDDAD2;
+  padding: 2px;
+  margin-left: 20px;
+  /*clear: both;*/
+  /*max-width: 85%;*/
+
+}
+
+/* this is block where post-pic */
+.picture {
+
+  background: inherit;
+  border: 0px solid #EDDAD2;
+  padding: 1px;
+  margin: 1px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 4px;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  height: -webkit-max-content;
+  float: left;
+
+}
+
+/* this is div with info about file */
+.OPtitle {
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  border: 0px solid #EDDAD2;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+
+}
+
+/* this is div with info about post */
+.infos {
+  border: 0px solid #EDDAD2;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* this is post owner OP or Cirno */
+.postername {
+  background:inherit;
+  font-size:11pt;
+  color:whitesmoke;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+/* this is post theme */
+.filetitle {
+  background:inherit;
+  color:greenyellow;
+  font-weight:800;
+  opacity: 0.9;
+}
+
+.titled {
+  font-size: 32px;
+  color:greenyellow;
+  opacity: 0.5;
+  font-weight:800;
+}
+
+/* this is post time and date */
+.smallgray {
+  background:inherit;
+  color: white;
+  font-size: 13;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+/* this is reply */
+.reply {
+  background:inherit;
+  color:#117743;
+  font-weight: normal;
+}
+
+/* this is post id */
+.redbig {
+  background:inherit;
+  color: greenyellow;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.redverybig {
+  background:inherit;
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.redsmall {
+  font-size: 10px;
+  color: red;
+}
